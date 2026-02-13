@@ -1,0 +1,92 @@
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+Specifications:
+
+\begin{itemize}
+  \item 1. The lockout/tagout panel shall be used.
+
+  \begin{todolist}
+    \item The lockout/tagout panel was installed in the hasp and locked during all work on the rack
+  \end{todolist}
+
+  \item 2. Power shall be provided to the control circuits via appropriate PLC outputs.
+  \begin{todolist}
+    \item The button and lights were both provided with power from 120VAC PLC output terminals.
+    \end{todolist}
+
+  \item 3. The PLC shall be powered by a 120 VAC source.
+  \begin{todolist}
+      \item The PLC receives power from a 120VAC outlet in the wall.
+  \end{todolist}
+  \item 4. Power to the PLC shall be protected by a lock-out/tag-out mechanism.
+  \begin{todolist}
+      
+      \item The button that energizes the PLC and associated equipment is protected by a locking hasp.
+  \end{todolist}
+
+    \item 5. The PLC shall be protected on the 120 VAC side by an appropriately-rated fuse.
+  \begin{todolist}
+      \item A fuse rated for 1.5A based on the specification of the PLC is installed inline with the power to the PLC.
+  \end{todolist}
+
+      \item 6.The design shall be implemented using a DL205 PLC.
+  \begin{todolist}
+      \item The DL205 PLC is the basis of our design.
+  \end{todolist}
+  
+      \item 7. The design shall be implemented using the Do-More Designer Software suite.
+  \begin{todolist}
+      \item Programming of the DL205 was achieved via Do-More Designer.
+  \end{todolist}
+  
+      \item 8. All components shall be mounted on a panel.
+  \begin{todolist}
+      \item The components are mounted on panels in a 19 inch rack.
+  \end{todolist}
+  
+      \item 9. Strain reliefs or rubber grommets shall be used for all panel thru-holes.
+  \begin{todolist}
+      \item All cables are protected upon passing through the rack via a rubber grommet.
+  \end{todolist}
+  
+      \item 10. Appropriate and consistent color coding shall be used for all conductors and terminal blocks.
+  \begin{todolist}
+      \item All lines leading from a power source to an input are red in color. All lines connected between an output and a PLC terminal are white in color, as is the neutral connector into our power supply. All ground cables are green and connected to green connector blocks.
+  \end{todolist}
+  
+      \item 11. The following items shall be mounted on the panel:
+• A green 22 mm pilot 
+• A red 22 mm pilot 
+• A blue 22 mm momentary button 
+
+  \begin{todolist}
+      \item Our panel features all three of these items.
+  \end{todolist}
+  
+      \item 12. The green pilot light shall turn on when the circuit is first energized.
+  \begin{todolist}
+      \item The green light is illuminated by default upon energizing the panel.
+  \end{todolist}
+
+
+      \item 14. The red pilot light shall turn on when the blue momentary button is depressed if the green pilot light is on.
+  \begin{todolist}
+      \item We programmed this behavior with Do-More into the PLC and it works as described.
+  \end{todolist}
+  
+  \item 15. The red pilot shall remain on after the blue momentary button is released.
+  \begin{todolist}
+      \item We programmed this behavior with Do-More into the PLC and it works as described.
+  \end{todolist}
+  
+  \item 16. The green pilot light shall turn on when the blue momentary button is depressed if the red pilot light is on.
+  \begin{todolist}
+      \item We programmed this behavior with Do-More into the PLC and it works as described.
+  \end{todolist}
+  
+  \item 17. The green pilot shall remain on after the blue momentary button is released.
+  \begin{todolist}
+      \item We programmed this behavior with Do-More into the PLC and it works as described.
+  \end{todolist}
+  
+\end{itemize}
